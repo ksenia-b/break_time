@@ -12,6 +12,7 @@ def rename_files():
     #for each file rename the filename
     for filename in file_list:
         os.rename(filename, filename.translate(None, "1234567890"))
+        print("Old names"+filename)
     os.chdir(saved_path)
 
 rename_files()
