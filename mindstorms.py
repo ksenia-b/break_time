@@ -3,7 +3,7 @@ import turtle
 def draw_square(some_turtle):
         for i in range(1,5):
             some_turtle.forward(100)
-            some_turtle.right(90)
+            some_turtle.right(100)
 
 
 def draw_art():
@@ -26,3 +26,4 @@ def draw_art():
     window.exitonclick()
 
 draw_art()
+
