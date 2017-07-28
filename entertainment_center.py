@@ -34,4 +34,7 @@ toy_story2 = media.Movie("Toy Story2",
                         "https://en.wikipedia.org/wiki/Toy_Story#/media/File:Toy_Story.jpg",     
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 movies = [toy_story, avatar, zootopia, school_of_rock, midnight_in_paris, toy_story2]
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+
+#print(media.Movie.VALID_RATINGS)
+print(media.Movie.__doc__)
